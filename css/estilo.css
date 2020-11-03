@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+
+.menu {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0;
+    padding:0;
+
+}
+
+
+
+.menu a {
+    color: white;
+    text-decoration: none
+}
+
+.boxProduto{
+    width:20%; 
+    display:inline-block;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 10px;
+
+}
+.precoAntigo {
+    text-decoration: line-through;
+}
+
+.precoAtual {
+    color: red;
+}
+
+#rodape {
+    text-align: center
+}
+
+#Formas_pagamentos {
+    color: red;
+}
+
+.produtosMain {
+    display:flex;
+    font-size:0;
+    
+}
+
+.categoria{
+  font-size: 15px; 
+  width:25%; 
+}
+.categoria li{
+    cursor: pointer;
+}
+
+.produtos{
+    width: 75%;
+}
+
+.local{
+    width: 33%;
+    
+}
+.lojas{
+    display: flex;
+    margin-top: 10px;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height:100px;
+    margin-bottom:20px;
+}
+
